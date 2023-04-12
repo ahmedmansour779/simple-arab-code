@@ -1,0 +1,32 @@
+:root {
+    --margin-left: 30px
+}
+
+.app {
+    margin: var(--margin-left);
+}
+
+hr {
+    margin-left: calc(-2 * var(--margin-left));
+    margin-right: calc(-2 * var(--margin-left));
+}
+
+button {
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+nav a {
+    margin-right: 15px
+}
+
+.active {
+    color: darkgreen;
+    text-decoration: none;
+}
